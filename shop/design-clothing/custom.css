@@ -1,0 +1,291 @@
+/*--------------------------------
+
+
+Current Theme Color:;
+
+---------------------------------- */
+
+:root {
+  --theme-color: #000;
+  --theme-text: #fff;
+  --text-color: #000;
+  --hover-color: #7d0000;
+}
+
+.theme-color{
+	color:var(--theme-color) !important;
+}
+.theme-text{
+	color:var(--theme-text) !important;
+}
+.text-color{
+	color:var(--text-color) !important;
+}
+.hover-color{
+	color:var(--hover-color) !important;
+}
+
+body {
+	color:var(--text-color) !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color:var(--text-color) !important;
+}
+
+.topbar-left li a:hover{
+  color:var(--hover-color) !important;
+}
+
+
+body{
+	font-family: Tahoma !important;
+	font-weight: 100 !important;
+	font-size: 16px;
+}
+a{
+	color: var(--theme-color) !important;
+}
+a:hover{
+	color: var(--hover-color) !important;
+}
+
+
+.navbar-default .navbar-toggle.collapsed .icon-bar, .navbar-default .navbar-toggle:hover.collapsed .icon-bar, .navbar-default .navbar-toggle:focus.collapsed .icon-bar {
+    background-color: var(--theme-text) !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar, .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: var(--hover-color) !important;
+}
+.navbar-default .navbar-toggle.collapsed, .navbar-default .navbar-toggle:hover.collapsed, .navbar-default .navbar-toggle:focus.collapsed {
+    margin-top: -18px;
+    border-radius: 1px;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .form-control:focus, .commonBtn, .commonBtn:hover, .getArea, .block_quate, .event_calendar, .feature-box:hover span, .cartListInner .table-responsive .table tbody tr td .close:hover, .cartListInner .updateArea .checkBtnArea .commonBtn, .cartListInner .updateArea .checkBtnArea .commonBtn:hover, .checkboxArea input[type=checkbox]:not(old):checked+label span, .checkboxArea1 input[type=checkbox]:not(old):checked+label span, .cooming-page.cooming-dark-page .ed-form .form-group .form-control:focus, .version2 .navbar-default .navbar-toggle:hover, .version2 .navbar-default .navbar-toggle:focus, .header-v2 .navbar-default .navbar-toggle:hover, .header-v2 .navbar-default .navbar-toggle:focus{
+    margin-top: -18px;
+    border-radius: 1px;
+}
+
+
+.bgcolor{
+	background-color: var(--theme-color) !important;
+	color: var(--theme-text) !important;
+}
+.textwhite{
+	color:#fff !important;
+}
+#snackbar{
+	background-color: var(--theme-color) !important;
+	color: var(--theme-text)!important;
+}
+.pbg {
+    background: #ffffff;
+    padding: 3rem 4rem;
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    -webkit-box-shadow: 5px 5px 15px var(--theme-color);
+    border-radius: 1.25rem;
+}
+.txtcolor{
+color: var(--theme-color) !important;
+}
+
+li.bgcolor > a {
+	color:#fff !important;
+}
+.bgdark{
+	background: url('images/bgdark.png');
+	background-size: contain;
+}
+.hoverwhite{
+	color:#fff !important;
+}
+.hoverwhite:hover{
+	color:#fff !important;
+}
+
+.slideimg{
+	height: 645px !important;
+	max-height: 645px !important;
+}
+
+#logo{
+	margin-left: 45%
+}
+
+.proshow{
+	position: relative;
+	width: 100%
+}
+
+
+.icn {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	z-index: 2;
+}
+
+.und{
+	text-decoration: line-through;
+}
+
+
+.qbtn{
+	background: none;
+    border: 1px solid #bbbbbb;
+    padding: 5px 10px;
+}
+
+
+.pbtn{
+	background: none;
+    border: 1px solid #bbbbbb;
+    padding: 10px 10px;
+    width: 100%
+}
+
+.size{
+	background: none;
+    border: 1px solid #bbbbbb;
+    padding: 10px 10px;
+}
+
+table{
+	margin:none !important;
+}
+
+.menuLink li a {
+    color: var(--theme-text);
+}
+
+
+#img1 {
+    color: rgb(102, 102, 102);
+    height: 200px;
+    width: auto;
+    text-align: center;
+    text-decoration: none solid rgb(102, 102, 102);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    column-rule-color: rgb(102, 102, 102);
+    perspective-origin: 85.4063px 85.4063px;
+    transform-origin: 85.4063px 85.4063px;
+    caret-color: rgb(102, 102, 102);
+    border: 3px solid var(--theme-color);
+    border-radius: 0%;
+    font: normal normal 300 normal 0px / 0px Lato, Arial, serif;
+    outline: rgb(102, 102, 102) none 0px;
+}
+
+
+
+@media (max-width: 576px) {  /*  Mobile Screen */
+	.slideimg { 
+		max-width: 540px; 
+		height: 240px !important;
+		max-height: 240px !important;
+	}
+
+	#logo{
+		margin-left: 4%
+	}
+
+	.mobhide{
+		display: none;
+	}
+
+	.mobdisplay{
+		display: block !important;
+	}
+	#top-bar .col_half {
+		display: none;
+	}
+
+	#header.sticky-style-2 #header-wrap, #header.sticky-style-3 #header-wrap {
+		min-height: 0px;
+	}
+	#primary-menu > div > ul {
+		padding-top: 6px !important;
+	}
+
+
+	.homeimg{
+		width: 100%;
+		height: 400px !important;
+
+	}
+
+	.proshow {
+    position: absolute;
+    bottom: -622px;
+	
+	}
+	.brandSection {
+    margin-top: 150%;
+	}
+
+}
+
+
+
+
+
+
+
+
+.partnersLogoSlider .slide .partnersLogo img {
+    height: 120px;
+    border-radius: 1px !important;
+    width: auto !important;
+    border: 1px solid var(--theme-color);
+}
+.brandSection {
+    padding: 30px 0 5px;
+    
+}
+
+.brandSection .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+    margin-right: 15px;
+    margin-top: -30px;
+}
+
+
+.brandSection .owl-carousel .owl-controls .owl-nav .owl-prev {
+    left: 0;
+    margin-left:15px;
+    margin-top: -30px;
+}
+
+.brandSection .owl-carousel .owl-controls .owl-nav .owl-next:before {
+    color: #fff;
+    line-height: 35px;
+    background: black;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.brandSection:hover .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+    margin-right: 25px;
+}
+
+
+.brandSection .owl-carousel .owl-controls .owl-nav .owl-prev:before {
+    color: #fff;
+    line-height: 35px;
+    background: black;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+.brandSection:hover .owl-carousel .owl-controls .owl-nav .owl-prev {
+    left: 0;
+    margin-left: 25px;
+}
