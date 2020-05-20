@@ -19,80 +19,49 @@
 		<?php 	include 'include/header.php'; ?>
 
 
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title">
 
-			<div class="container clearfix">
-				<h1>Page Title </h1>
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item"><a href="#">Pages</a></li>
-					<li class="breadcrumb-item active" aria-current="page">404</li>
-				</ol>
-			</div>
 
-		</section><!-- #page-title end -->
 
-		<!-- Content
-		============================================= -->
-		<section id="content">
+                <div class="container divcenter clearfix">
 
-			<div class="content-wrap">
+<div class="heading-block center nobottommargin">
+    <h2>Maintain Your Business even in Lockdown!</h2>
+</div>
+<div class="center">
+    <span class="" style="font-size: 18px;">Due to Coronavirus Pandemic, Physical Businesses are
+        rolling down.<br>
+        Create your Online Presence by building Online Shops. With your Own E-Commerce Store you can
+        Sell your Products and Work from Home.
 
-				<div class="container clearfix">
 
-					<div class="col_half nobottommargin">
-						<div class="error404 center">404</div>
-					</div>
+    </span>
+</div>
 
-					<div class="col_half nobottommargin col_last">
 
-						<div class="heading-block nobottomborder">
-							<h4>Ooopps.! The Page you were looking for, couldn't be found.</h4>
-							<span>Try searching for the best match or browse the links below:</span>
-						</div>
+<div style="position: relative;" data-height-xl="624" data-height-lg="518" data-height-md="397"
+    data-height-sm="242" data-height-xs="154">
+    <img src="images/home/fshop.png" style="position: absolute; top: 0; left: 0;"
+        data-animate="fadeInUp" data-delay="100" alt="Chrome">
+    <img src="images/home/fmobile.png" style="position: absolute; top: 0; left: 0;"
+        data-animate="fadeInUp" data-delay="400" alt="iPad">
+    <img src="images/home/fbrowser2.png" style="position: absolute; top: 0; left: 0;"
+        data-animate="fadeIn" data-delay="1200" alt="iPad">
+</div>
+</div>
+<a href="//demo.wilcode.com/online-shops" class="button button-full button-dark center tright bottommargin-lg">
+<div class="container clearfix">
+    We have more than 25+ Designs and Layouts for Online Shop. <strong> Select Design</strong> <i
+        class="icon-caret-right" style="top:4px;"></i>
+</div>
+</a>
 
-						<form action="#" method="get" class="nobottommargin">
-							<div class="input-group input-group-lg">
-								<input type="text" class="form-control" placeholder="Search for Pages...">
-								<div class="input-group-append">
-									<button class="btn btn-danger" type="button">Search</button>
-								</div>
-							</div>
-						</form>
 
-						<div class="col_one_third widget_links topmargin nobottommargin">
-							<ul>
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">FAQs</a></li>
-							</ul>
-						</div>
 
-						<div class="col_one_third widget_links topmargin nobottommargin">
-							<ul>
-								<li><a href="#">Shop</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Blog</a></li>
-							</ul>
-						</div>
 
-						<div class="col_one_third widget_links topmargin nobottommargin col_last">
-							<ul>
-								<li><a href="#">Support</a></li>
-								<li><a href="#">Forums</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
-						</div>
 
-					</div>
 
-				</div>
 
-			</div>
 
-		</section><!-- #content end -->
 
 		<!-- Footer
 		============================================= -->

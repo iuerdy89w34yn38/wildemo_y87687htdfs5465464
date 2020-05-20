@@ -1,9 +1,10 @@
 <?php include 'include/connect.php'; ?>
-
+ 
 <?php
  if(!empty($_GET['page_name'])){	
 $slug = $_GET['page_name'];
-$rows =mysqli_query($con,"SELECT * FROM pages where `slug`='$slug' ") or die(mysqli_error($con));
+//$slug = substr($slug, 0, -1);
+$rows =mysqli_query($con,"SELECT * FROM pages where `slug`= '$slug' ") or die(mysqli_error($con));
 
 while($row=mysqli_fetch_array($rows)){
 
@@ -14,7 +15,6 @@ $desp = $row['desp'];
 $post = $row['post']; 
 $parent = $row['parent']; 
 $slug = $row['slug'];
-}
 ?>
 	<meta name="keywords" content="<?php echo $keywords ?>"/>
 	<meta name="description" content="<?php echo $desp ?>  - Designs By: WilCode"/>
@@ -58,5 +58,4 @@ $slug = $row['slug'];
 	============================================= -->
 	<title><?php echo $title ?> | <?php echo $sitename ?></title>
 
-
-<?php }  ?>
+<?php } } ?>

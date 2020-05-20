@@ -5,9 +5,10 @@
 
 			<!-- Copyrights
 			============================================= -->
-			<div id="copyrights">
 
 <?php if($domain==$wilcode){ ?>
+			<div id="copyrights">
+
 				<div class="container clearfix">
 
 					<div class="col_half">
@@ -21,7 +22,9 @@
 					</div>
 
 				</div>
+			</div>
 <?php } if($domain==$it){ ?>
+			<div id="copyrights" style="background: #d4532d; color: #000">
 
 				<div class="container clearfix">
 
@@ -36,10 +39,11 @@
 					</div>
 
 				</div>
+			</div><!-- #copyrights end -->
+
 				<?php } ?>
 
 
-			</div><!-- #copyrights end -->
 
 		</footer><!-- #footer end -->
 

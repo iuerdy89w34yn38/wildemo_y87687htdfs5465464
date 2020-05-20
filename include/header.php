@@ -19,8 +19,8 @@
 				<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="home" class="standard-logo" data-dark-logo="images/it.png"><img src="images/it.png" alt="Logo"></a>
-						<a href="home" class="retina-logo" data-dark-logo="images/it.png"><img src="images/it.png" alt="Logo"></a>
+						<a href="home" class="standard-logo" data-dark-logo="images/it.png"><img src="images/it.png" alt="Logo" style="width: 180px;"></a>
+						<a href="home" class="retina-logo" data-dark-logo="images/it.png"><img src="images/it.png" alt="Logo" style="width: 180px;"></a>
 					</div><!-- #logo end -->
 
 				<?php } ?>
