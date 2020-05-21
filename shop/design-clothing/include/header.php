@@ -102,7 +102,7 @@ position: absolute !important;
 
             <div class="col-12 text-center">
               <center>
-                                <a class="logo clearfix" href="index"><img src="images/<?php echo $sitelogo; ?>" alt="" class="img-responsive"/></a>
+                                <a class="logo clearfix" href="home"><img src="images/<?php echo $sitelogo; ?>" alt="" class="img-responsive"/></a>
               </center>
 
             </div>
