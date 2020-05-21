@@ -1,14 +1,11 @@
-<?php include 'include/connect.php'; ?>
-
-<?php 
-if(!isset($_COOKIE['device'])) {
+<?php if(!isset($_COOKIE['device'])) {
     setcookie('device', md5(uniqid()), time() + (86400 * 30), "/"); // 86400 = 1 day
   }
 if(isset($_COOKIE['device'])) {
      $device=$_COOKIE['device'];
-    }
+    } ?>
+ <?php include 'include/connect.php'; ?>
 
- ?>
 
 
  <?php 
