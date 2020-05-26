@@ -18,6 +18,8 @@ if(isset($_SESSION['name'])){
     
   </head>
   <body class="login1">
+    <br><br>
+    <br><br>
     <!-- Login Screen -->
     <div class="row">
       <div class="col-md-4">
@@ -26,6 +28,8 @@ if(isset($_SESSION['name'])){
         <h1>
           <a href="./">Login</a>
         </h1>
+    <br><br>
+        
         <form action="" method="post">
           <div class="form-group">
             <input class="form-control" name="username" placeholder="Username" type="text">
@@ -39,6 +43,13 @@ if(isset($_SESSION['name'])){
           </div>
           
         </form>
+
+    <br><br>
+    <br><br>
+        <br>
+        <center>
+          <span>Demo Admin Credentials <br> Username: testadmin | Password: testpass</span>
+        </center>
         
 
         <?php

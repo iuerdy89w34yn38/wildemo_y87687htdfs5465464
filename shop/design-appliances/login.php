@@ -39,7 +39,13 @@ if(isset($_SESSION['name'])){
           </div>
           
         </form>
+            <br><br>
+        <br>
+        <center>
+          <span>Demo Admin Credentials <br> Username: testadmin | Password: testpass</span>
+        </center>
         
+
 
         <?php
                        
