@@ -51,9 +51,9 @@
 
 </div>
 
-<a href="//demo.wilcode.com/online-shops" class="button button-full button-dark center tright ">
+<a href="online-shops" class="button button-full button-dark center tright ">
 <div class="container clearfix">
-    We have more than 25+ Designs and Layouts for Online Shop. <strong> Select Design</strong> <i
+    We have many Featured Rich Designs and Layouts for<strong> Online Shop.</strong> <i
         class="icon-caret-right" style="top:4px;"></i>
 </div>
 </a>
