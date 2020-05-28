@@ -25,7 +25,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="WilCode Demo Designs" />
 	<meta name="keywords" content="website development, web development in pakistan"/>
-	<meta name="description" content="The most Affordable and Highly Customizable Online Demos."/>
+	<meta name="description" content="The most Professional, Affordable and Highly Customizable Online Shop Demos."/>
 	<meta name="subject" content="Wesite Development - WilCode">
 
 <?php if($domain==$wilcode){ $sitename = 'WilCode'; ?>

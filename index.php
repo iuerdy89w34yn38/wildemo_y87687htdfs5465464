@@ -4,7 +4,7 @@
 	<?php include 'include/head.php'; ?>
 	<!-- Document Title
 	============================================= -->
-	<title>Websites Demo Designs | <?php echo  $sitename ?>'s Affordable and Highly Customizable Online Demos.</title>
+	<title>Websites Demo Designs | <?php echo  $sitename ?>'s Affordable & Customizable Demos.</title>
 
 </head>
 
