@@ -60,3 +60,14 @@
 	============================================= -->
 	<script src="js/functions.js"></script>
 	
+<script type="text/javascript">
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 1000;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
