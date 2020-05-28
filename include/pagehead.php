@@ -42,16 +42,26 @@ $slug = $row['slug'];
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
 
-	<meta name="og:title" content=" <?php echo $title ?>  - Designs By: WilCode"/>
-	<meta name="og:description" content=""/>
+	<meta property="og:title" content=" <?php echo $title ?>  - Designs By: WilCode"/>
+	<meta property="og:description" content="The most Affordable and Highly Customizable Online Demos."/>
+	<meta property="og:type" content=" <?php echo $title ?> Website Demos"/>
+	<meta property="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
+	<meta property="og:image" content="https://wilcode.com/ogfavicon.png"/>
+	<meta property="og:site_name" content="WilCode"/>
+	<meta property="fb:page_id" content="WilCodePK" />
+	<meta property="og:email" content="info@wilcode.com"/>
 
 
-	<meta name="og:type" content="website"/>
-	<meta name="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
-	<meta name="og:image" content="images/fav.png"/>
-	<meta name="og:site_name" content="WilCode"/>
-	<meta name="fb:page_id" content="pageid" />
-	<meta name="og:email" content="info@wilcode.com"/>
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@wilcodepk">
+<meta name="twitter:title" content="MAINTAIN YOUR BUSINESS EVEN IN LOCKDOWN!">
+<meta name="twitter:description" content="Due to Coronavirus Pandemic, Physical Businesses are rolling down.
+Create your Online Presence by building Online Shops. With your Own E-Commerce Store you can Sell your Products and Work from Home.">
+<meta name="twitter:image" content="https://pbs.twimg.com/media/EZF0DJxXYAAYG8-?format=jpg&name=4096x4096">
+
+
 
 
 	<!-- Document Title

@@ -47,7 +47,7 @@
 
 
 
-	<meta property="og:title" content="WilCode Demos Designs"/>
+	<meta property="og:title" content="Webiste's Demo Designs  | WilCode "/>
 	<meta property="og:description" content="The most Affordable and Highly Customizable Online Demos."/>
 	<meta property="og:type" content="Website Demos"/>
 	<meta property="og:url" content="<?php echo $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>"/>
