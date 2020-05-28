@@ -16,6 +16,29 @@ $post = $row['post'];
 $parent = $row['parent']; 
 $slug = $row['slug'];
 ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": " <?php echo $title ?> WilCode Demos",
+  "alternateName": "wil code Wilcode Designs <?php echo $title ?>",
+  "url": "https://demo.wilcode.com/<?php echo $slug ?>",
+  "logo": "https://wilcode.com/favicon.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+923494965879",
+    "contactType": "sales",
+    "areaServed": "PK",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://facebook.com/wilcodepk",
+    "https://twitter.com/wilcodepk",
+    "https://demo.wilcode.com/"
+  ]
+}
+</script>
+
 	<meta name="keywords" content="<?php echo $keywords ?>"/>
 	<meta name="description" content="<?php echo $desp ?>  - Designs By: WilCode"/>
 	<meta name="subject" content="<?php echo $title ?> Designs">
