@@ -20,6 +20,9 @@ a:hover{
   color:var(--hover-color);
 }
 
+.widget-container .widget-content {
+    overflow: auto;
+}
 
 .form-control{
   border-radius:0px;
@@ -92,13 +95,13 @@ input[type="radio"], input[type="checkbox"] {
 
 .uprleft{
 position: absolute;
-    top: 300px;
+    top:350px;
 }
 
 
 .upr{
   position: absolute;
-    top: 350px;
+    top: 400px;
     left: 30px;
 }
 
