@@ -115,7 +115,7 @@
 
           ?>
 
-          <a href="dservices-<?php echo $slug ?>">
+          <a href="dproducts-<?php echo $slug ?>">
             <div class="item col-md-4 col-12">
               <div class="item-inner">
                 <div class="project-item">
